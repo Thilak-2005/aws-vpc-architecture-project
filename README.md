@@ -28,7 +28,7 @@ This repository contains an AWS VPC architecture diagram showcasing a highly ava
 ## 🏗️ Overview
 
 ### 1️⃣ VPC with Public and Private Subnets
-![](images/vpc-subnets.png)  
+![](vpc1.png)  
 The VPC is divided into **public and private subnets** across multiple availability zones to ensure redundancy and isolation of resources.
 
 ---
