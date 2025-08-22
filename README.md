@@ -44,7 +44,30 @@ The **Application Load Balancer (ALB)** distributes incoming traffic across mult
 The **Auto Scaling Group (ASG)** automatically adds or removes servers based on traffic load, ensuring scalability and cost efficiency.
 
 ---
+### Target Group
+A **Target Group** is used by the **Application Load Balancer (ALB)** to route traffic to registered targets (like EC2 instances, IPs, or Lambda functions).  
+It provides:  
+- **Load balancing** – distributes traffic evenly across healthy instances.  
+- **Health checks** – continuously monitors the health of targets to route requests only to healthy ones.  
+- **Target types** – supports EC2 instances, IP addresses, or AWS Lambda.  
 
+![](./targetgroup.png)
+
+---
+
+### Launch Template
+A **Launch Template** defines the configuration for EC2 instances.  
+It includes:  
+- **AMI ID** – the operating system and software stack to use.  
+- **Instance type** – defines the CPU, memory, and networking capacity.  
+- **Key pair** – for SSH access.  
+- **Security groups** – to control inbound and outbound traffic.  
+- **User data** – for automated bootstrapping (like installing software on startup).  
+
+Launch templates help ensure consistent configurations across instances and simplify scaling with Auto Scaling Groups.  
+
+![](./launchtemplate.png)
+---
 ### 4️⃣ NAT Gateways
 ![](images/nat-gateway.png)  
 The **NAT Gateway** allows instances in private subnets to securely access the internet while preventing unsolicited inbound traffic.
