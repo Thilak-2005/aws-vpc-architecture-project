@@ -34,7 +34,7 @@ The VPC is divided into **public and private subnets** across multiple availabil
 ---
 
 ### 2️⃣ Application Load Balancer
-![](images/alb.png)  
+![](load.png)  
 The **Application Load Balancer (ALB)** distributes incoming traffic across multiple servers in different availability zones to ensure high availability and fault tolerance.
 
 ---
