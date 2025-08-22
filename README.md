@@ -40,7 +40,7 @@ The **Application Load Balancer (ALB)** distributes incoming traffic across mult
 ---
 
 ### 3️⃣ Auto Scaling Group
-![](images/auto-scaling.png)  
+![](autoscale.png)  
 The **Auto Scaling Group (ASG)** automatically adds or removes servers based on traffic load, ensuring scalability and cost efficiency.
 
 ---
