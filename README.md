@@ -21,7 +21,7 @@ This repository contains an AWS VPC architecture diagram showcasing a highly ava
 ---
 
 ## 📌 Full Architecture Diagram
-![](vpc.png)
+![](subnet.png)
 
 ---
 
