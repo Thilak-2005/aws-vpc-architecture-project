@@ -66,7 +66,7 @@ It includes:
 
 Launch templates help ensure consistent configurations across instances and simplify scaling with Auto Scaling Groups.  
 
-![](./launchtemplate.png)
+![](launchtem.png)
 ---
 ### 4️⃣ NAT Gateways
 ![](images/nat-gateway.png)  
