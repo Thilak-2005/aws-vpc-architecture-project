@@ -51,7 +51,7 @@ It provides:
 - **Health checks** – continuously monitors the health of targets to route requests only to healthy ones.  
 - **Target types** – supports EC2 instances, IP addresses, or AWS Lambda.  
 
-![](./targetgroup.png)
+![](target.png)
 
 ---
 
