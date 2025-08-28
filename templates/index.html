@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <title>Smart Recipe Generator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Smart Recipe Generator</h1>
+    <form method="POST">
+      <label>Enter Ingredients (comma separated):</label>
+      <textarea name="ingredients" rows="5" placeholder="e.g. chicken, onion, garlic, tomato, basil"></textarea>
+      <br><br>
+      <button type="submit" class="btn-primary">Generate Recipe</button>
+    </form>
+    {% if error %}
+      <p class="error">{{ error }}</p>
+    {% endif %}
+  </main>
+</body>
+</html>

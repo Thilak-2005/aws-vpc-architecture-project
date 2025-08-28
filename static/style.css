@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background: #f9fafc; color: #333; margin: 0; padding: 20px; }
+.container { max-width: 700px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); }
+h1, h2 { color: #ff6b6b; }
+textarea { width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+button { background: #ff6b6b; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+button:hover { background: #e65a5a; }
+a { text-decoration: none; color: #333; }
+.error { color: red; margin-top: 10px; }
+cd D:\recipegenerator\recipe_generator
+python -m pip install -r requirements.txt
+python app.py

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <a href="/">← Back</a>
+    <h1>{{ title }}</h1>
+    <p>⏱️ {{ time }} | 🍽️ Serves {{ servings }}</p>
+    <h2>Ingredients</h2>
+    <ul>
+      {% for ing in ingredients %}
+        <li>{{ ing }}</li>
+      {% endfor %}
+    </ul>
+    <h2>Steps</h2>
+    <ol>
+      {% for step in steps %}
+        <li>{{ step }}</li>
+      {% endfor %}
+    </ol>
+  </main>
+</body>
+</html>
