@@ -79,6 +79,24 @@ The **NAT Gateway** allows instances in private subnets to securely access the i
 **Security Groups** act as virtual firewalls, controlling inbound and outbound traffic at the instance level to ensure security.
 
 ---
+## 🖼️ Static Output  
+Static outputs represent the **pre-deployment architecture diagrams** that define how resources will be provisioned. These diagrams serve as the blueprint for the infrastructure.  
+
+![](images/static-output.png)  
+
+---
+
+## ⚡ Dynamic Output  
+Dynamic outputs represent the **live deployed infrastructure on AWS**. Screenshots from the AWS Management Console or CLI commands validate that resources are running as expected.  
+
+Examples:  
+- EC2 instances launched in Auto Scaling Group  
+- Load Balancer distributing traffic  
+- NAT Gateway providing outbound internet access  
+- Security Groups applied correctly  
+
+![](images/dynamic-output.png)  
+
 
 ## 🔧 How to Use
 1. Clone this repository:
