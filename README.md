@@ -82,7 +82,7 @@ The **NAT Gateway** allows instances in private subnets to securely access the i
 ## 🖼️ Static Output  
 Static outputs represent the **pre-deployment architecture diagrams** that define how resources will be provisioned. These diagrams serve as the blueprint for the infrastructure.  
 
-![](dync.png)  
+![](statcioutput.png)  
 
 ---
 
